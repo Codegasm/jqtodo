@@ -1,0 +1,39 @@
+.todoItem {
+	white-space: normal;
+}
+
+.completedItem > a {
+	color: #666;
+	text-decoration: line-through;
+}
+
+.whiteButton, .grayButton {
+	margin: 0 10px
+}
+
+.redButton {
+	display: block;
+	border-width: 0 12px;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: inherit;
+	-webkit-border-image: url(themes/apple/img/redButton.png) 0 12 0 12;
+	color: #FFFFFF;
+}
+
+.buttonContainer {
+	background-color: #fff;
+	z-index: 200;
+	text-align: center;
+}
+
+.buttonContainer > a {
+	display: inline-block;
+	margin: 0;
+	margin-right: 10px;
+	font-size: 14px;
+	padding: 4px;
+}
+
